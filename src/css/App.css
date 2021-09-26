@@ -1,0 +1,142 @@
+body,
+html{
+  padding: 0;
+  margin: 0;
+  background: #000001;
+  position: relative;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  color: #6E6E6E;
+}
+
+#Grid{
+  display: grid;
+  grid-template-columns: 823px 1363px;
+  position:absolute;
+}
+#Content{
+  position:absolute;
+}
+
+.app {
+  width: 1097.28px;
+}
+
+.formInput{
+  width: 407.08px;
+  margin: auto;
+}
+
+h1{
+font-weight: 900;
+font-size: 36px;
+line-height: 43px;
+color: #FFFFFF;
+text-align: center;
+}
+
+p{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 71.8px;
+}
+
+p.note{
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 13.26px;
+  display: block;
+}
+
+.inputGroup{
+  width: 407.08px;
+  height: 37.41px;
+  
+  background:rgba(255,255,255,.09);
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 35.68px 1fr;
+  margin-bottom: 22px;
+}
+
+.inputGroup svg {
+ fill: #FFFFFF;
+ margin: auto auto;
+}
+
+.inputGroup input::placeholder,
+.inputGroup input{
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255,255,255,.25);
+  background-color: transparent;
+}
+
+.inputGroup input{
+  padding-left: 13px;
+  border-left: 1px solid rgba(255,255,255,.09);
+}
+
+.groupNumbers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25.91px;
+  
+}
+.groupNumbers > div{
+  display: flex;
+  justify-content: space-between;
+  background:rgba(255,255,255,.09);
+  border-radius: 4px;
+  height: 37.41px;
+  align-items: center;
+}
+.groupNumbers svg{
+  fill: #FFFFFF;
+}
+.groupNumbers > div > div{
+ width: 18px;
+ height: 18px;
+ background-color: rgba(0,0,0,.22);
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 10.65px;
+ margin-right: 10.65px;
+ cursor: pointer;
+}
+
+.groupNumbers > div > span + div{
+  background-color: rgba(255,255,255,.22);
+}
+
+.submit{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #FFFFFF;
+  width: 243px;
+  height: 42px;
+  margin: auto;
+  background-color: #6684F2;
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
